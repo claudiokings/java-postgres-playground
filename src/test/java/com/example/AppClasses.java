@@ -9,6 +9,7 @@ public class AppClasses {
 
         System.out.println();
 
+        // estanciando cliente
         Cliente cliente = new Cliente();
         
         cliente.setRenda(-10000);
@@ -20,19 +21,21 @@ public class AppClasses {
         cliente.setAnoNascimento(1980);
         System.out.println("Ano Nascimento " + cliente.getAnoNascimento());
 
+        System.out.println("É especial ? " + cliente.isEspecial());
+
         System.out.println();;
 
-        
-        Cliente cliente2 = new Cliente();
+        // estanciando cliente
+        Cliente cliente2 = new Cliente(2000, 'F');
 
-        cliente2.setRenda(2000);
         System.out.println("Renda " + cliente2.getRenda());
         
-        cliente2.setSexo('F');
         System.out.println("Sexo " + cliente2.getSexo());
         
-        cliente2.setAnoNascimento(1970);
         System.out.println("Ano Nascimento " + cliente2.getAnoNascimento());
+   
+
+        System.out.println("É especial ? " + cliente2.isEspecial());
 
         System.out.println();        
         
