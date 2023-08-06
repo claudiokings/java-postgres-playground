@@ -5,13 +5,11 @@
 
 drop table if exists item_venda;
 drop table if exists venda;
-
 drop table if exists cliente;
 drop table if exists funcionario;
 drop table if exists estoque;
 drop table if exists produto;
 drop table if exists marca;
-
 drop table if exists loja;
 drop table if exists cidade;
 drop table if exists estado;

@@ -8,7 +8,7 @@ public class AppEleitor {
         
         var cidadão = new Cidadao();
 
-        cidadão.setDataNascimento(LocalDate.of(1965, 14, 1));
+        cidadão.setDataNascimento(LocalDate.of(2007, 1, 14));
 
         System.out.println(cidadão.idade());
         System.out.println(cidadão.eleitor());

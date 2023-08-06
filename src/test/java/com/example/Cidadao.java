@@ -2,7 +2,7 @@ package com.example;
 
 import java.time.LocalDate;
 
-public class AppCidadao {
+public class Cidadao {
     
         private LocalDate dataNascimento;
 
